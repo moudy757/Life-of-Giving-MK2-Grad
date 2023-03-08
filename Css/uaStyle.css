@@ -1,0 +1,520 @@
+/* Head */
+.container .grid {
+    height: auto;
+    padding: 20px;
+}
+
+.ffddss {
+    width: 200px;
+    height: 400px;
+    margin: 10px;
+    margin-top: 150px;
+    float: left;
+    border-radius: 10px;
+}
+
+.ssddff {
+    width: 200px;
+    height: 400px;
+    margin: 10px;
+    margin-top: 150px;
+    float: right;
+    border-radius: 10px;
+}
+
+/* Showcase */
+/* .showcase
+{
+    position: relative;
+    height: 100%;
+    animation: leftSlideIn .5s ease-in;
+
+}
+
+.showcase p
+{
+    margin: 20px 0;
+}
+
+.showcase .card
+{
+    color: #fff;
+    background-color: var(--light-color);
+    transition: transform 0.2s ease-in;
+}
+
+.showcase .card:hover
+{
+    transform: scale(1.007);
+}
+
+.showcase-text
+{
+    text-align: center;
+}
+
+.showcase .container
+{
+    position: relative;
+} */
+
+.home-p-r {
+    animation: rightSlideIn .5s ease-in;
+}
+
+.home-p-l {
+    animation: leftSlideIn .5s ease-in;
+}
+
+
+/* Goals */
+.goals {
+    padding-top: 50px;
+    position: relative;
+    color: var(--dark-color);
+    animation: bottomSlideIn 1s ease-in;
+    background-color: #F08B1D;
+}
+
+.goals-heading {
+    max-width: 500px;
+    margin: auto;
+}
+
+.goals .grid {
+    height: auto;
+    padding: 50px;
+}
+
+.goals .grid h3 {
+    font-size: 35px;
+}
+
+.goals .grid p {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.goals img {
+    width: 70px;
+}
+
+/* Backgrounds */
+.bg1 {
+    border: #fff;
+    border-radius: 30px;
+    padding: 10px;
+    width: 70%;
+    align-content: center;
+    animation: topSlideIn .5s ease-in;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bg2 {
+    border: #fff;
+    border-radius: 30px;
+    padding: 10px;
+    width: 100%;
+    animation: leftSlideIn .5s ease-in;
+}
+
+.bg3 {
+    border: #fff;
+    border-radius: 30px;
+    padding: 10px;
+    width: 90%;
+    animation: rightSlideIn .5s ease-in;
+}
+
+.bgEx {
+    background-image: url(../Images/bgAll.jpg);
+}
+
+.signIn {
+    background-image: url(../Images/bgAll.jpg);
+}
+
+.signUp {
+    background-image: url(../Images/bgAll.jpg);
+}
+
+
+
+/* Forms */
+.form-box {
+    width: 500px;
+    height: 1000px;
+    position: relative;
+    margin: 6% auto;
+    background: none;
+    padding: 5px;
+    overflow: hidden;
+    transform: scale(1.1,1.1);
+}
+
+.shortForm-box {
+    width: 500px;
+    height: 400px;
+    position: relative;
+    margin: 6% auto;
+    background: none;
+    padding: 5px;
+    overflow: hidden;
+    transform: scale(1.2,1.2);
+    margin-top: 200px;
+}
+
+.button-box {
+    width: 300px;
+    margin: 35px auto;
+    position: relative;
+    box-shadow: 0 0 20px 9px var(--dark-color);
+    border-radius: 30px;
+    background: transparent;
+}
+
+#toggleBtn1 {
+    padding: 10px 20px;
+    margin-left: 0;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+    color: #fff;
+    transition: 1.5s;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#toggleBtn2 {
+    padding: 10px 15px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+    color: #000;
+    transition: 1.5s;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#toggleBtn3 {
+    padding: 10px 15px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+    margin-left: 0;
+    color: #000;
+    transition: 1.5s;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#btn {
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 85px;
+    height: 100%;
+    background: var(--dark-color);
+    border-radius: 30px;
+    transition: 1s;
+}
+
+.input-div {
+    padding: 5px 10px;
+}
+
+.input-group {
+    position: absolute;
+    width: 300px;
+    transition: .5s;
+    font-size: 14px;
+    padding: 10px 10px;
+    background-color: var(--dark-color);
+}
+
+.darkBorder {
+    background-color: #fff;
+    padding: 10px;
+    margin: 0px;
+    border-radius: 10px;
+}
+
+.input-field {
+    padding: 10px 0 10px 5px;
+    border-left: 1px solid #999;
+    border-top: 1px solid #999;
+    border-right: 1px solid #999;
+    border-bottom: 1px solid #999;
+    border-radius: 30px;
+    outline: none;
+    background: transparent;
+    margin: 5px 0;
+    width: 49.4%;
+}
+
+.age-label {
+    color: #333;
+    opacity: 75%;
+    padding: 10px 10px 10px 5px;
+    border-left: 1px solid #999;
+    border-top: 1px solid #999;
+    border-right: 1px solid #999;
+    border-bottom: 1px solid #999;
+    border-radius: 30px;}
+
+.age-input {
+    width: 35%;
+}
+
+.error-handlers {
+    color: var(--extra-color);
+}
+
+.check-box {
+    margin: 30px 10px 30px 0;
+}
+
+span a {
+    color: var(--dark-color);
+}
+
+span a:hover {
+    color: var(--secondary-color);
+}
+
+textarea {
+    height: 75px;
+    width: 100%;
+}
+
+#signupHs {
+    left: 550px;
+    width: 420px;
+    height: max-content;
+    transition: 1s;
+}
+
+#signupCharity {
+    left: 950px;
+    width: 420px;
+    height: max-content;
+    transition: 1s;
+}
+
+#signupDonor {
+    left: 50px;
+    width: 420px;
+    height: max-content;
+    transition: 1s;
+}
+
+#signinHs {
+    left: 550px;
+    width: 420px;
+    height: max-content;
+    transition: 1s;
+}
+
+#signinCharity {
+    left: 950px;
+    width: 420px;
+    height: max-content;
+    transition: 1s;
+}
+
+#signinDonor {
+    left: 50px;
+    width: 420px;
+    height: max-content;
+    transition: 1s;
+}
+
+
+
+/* FAQ CSS */
+
+
+.questionHead {
+    margin: 70px 10px;
+}
+.question {
+    color: var(--dark-color);
+    margin-left: 20px;
+}
+.answer {
+    color: #333;
+    margin-bottom: 50px;
+    margin-left: 30px;
+}
+
+/* /FAQ CSS */
+
+
+
+
+
+/* Animations */
+@keyframes leftSlideIn {
+    0% {
+        transform: translateX(-100%);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@keyframes rightSlideIn {
+    0% {
+        transform: translateX(100%);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@keyframes topSlideIn {
+    0% {
+        transform: translateY(-100%);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@keyframes bottomSlideIn {
+    0% {
+        transform: translateY(100%);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+/* Tablets $ under */
+@media(max-width: 768px) {
+    .navbar {
+        height: 130px;
+        font-size: 14px;
+    }
+
+    .navbar .flex {
+        flex-direction: column;
+    }
+
+    .navbar ul {
+        background-color: rgba(0, 0, 0, 0.1);
+        border-radius: 30px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .grid,
+    .goals .grid {
+        grid-template-columns: 1fr;
+
+    }
+}
+
+/* Mobile */
+@media(max-width: 500px) {
+
+    .navbar a {
+        font-size: 10px;
+        padding: 0;
+    }
+
+    .navbar ul {
+        padding-left: 10px;
+    }
+
+    .logo {
+        width: 100%;
+        padding: 0 50px;
+        animation: topSlideIn .5s ease-in;
+    }
+
+    .bg1 {
+        animation: leftSlideIn .5s ease-in;
+    }
+
+    .bg2 {
+        margin: 0 25px;
+        width: 75%;
+        animation: rightSlideIn .5s ease-in;
+    }
+
+    .xyz {
+        text-align: center;
+    }
+
+    .home-p-r {
+        animation: leftSlideIn .5s ease-in;
+    }
+
+    .wrapper {
+        padding: 0;
+    }
+
+    .signUp .container {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .signIn .container {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .shortForm-box,
+    .form-box {
+        width: 100%;
+        transform: scale(0.9,0.9);
+    }
+
+    #signupHs {
+        transform: scale(0.9,0.9);
+        transition: 1s;
+    }
+    
+    #signupCharity {
+        transform: scale(0.9,0.9);
+        transition: 1s;
+    }
+    
+    #signupDonor {
+        transform: scale(0.9,0.9);
+        transition: 1s;
+        left: 0;
+    }
+    
+    #signinHs {
+        transform: scale(0.9,0.9);
+        transition: 1s;
+    }
+    
+    #signinCharity {
+        transform: scale(0.9,0.9);
+        transition: 1s;
+    }
+    
+    #signinDonor {
+        transform: scale(0.9,0.9);
+        transition: 1s;
+        left: 0;
+        }
+}
