@@ -1,4 +1,4 @@
-# Life of Giving
+# **Life of Giving**
 
 A Simple WebApp for Charity.
 
